@@ -2,6 +2,7 @@ import imp
 import torch
 import torch.nn as nn
 import math
+import os
 
 class se_block(nn.Module):
     def __init__(self, channel, ratio = 16):
